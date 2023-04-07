@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #369457;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1f6032;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.first_section {
+  background-image: url(315173.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.welcome h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.welcome button {
+  padding: 10px 20px;
+  background-color: #1f6032;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.welcome button a {
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+}
+
+.more {
+  padding: 10px 20px;
+  margin-top: 40px;
+  background-color: #1f6032;
+}
+
+.more h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+}
+
+.photos {
+  background-color: #1f6032;
+  padding: 10px 20px;
+}
+
+.photos h3 {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.photos1 {
+  padding: 10px 20px;
+}
+
+.imagescountainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.imagescountainer img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about_Bb {
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.about_us {
+  padding: 10px 20px;
+  align-items: center;
+  margin-bottom: 220px;
+}
+
+.join_us {
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.join_us1 {
+  padding: 10px 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.join_us1 input {
+  background-color: #1f6032;
+}
+
+.join_us1 textarea {
+  background-color: #1f6032;
+}
+
+footer {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: azure;
+  margin-top: 0px;
+}
+footer p {
+  font-size: 14px;
+  color: #999;
+}
